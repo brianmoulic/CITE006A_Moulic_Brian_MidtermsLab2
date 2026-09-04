@@ -2,7 +2,7 @@ const http = require("http");
 const myName = "Brian";
 
 function getGreeting(name) {
-  return "Hello there, " + name + "! Welcome to the team.";
+  return "Hey, " + name + "! Great to have you.";
 }
 
 const server = http.createServer((req, res) => {
